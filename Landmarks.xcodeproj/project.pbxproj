@@ -18,6 +18,7 @@
 		83FBCB182B680CEA00B94985 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB172B680CEA00B94985 /* ListView.swift */; };
 		83FBCB1A2B680FA400B94985 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB192B680FA400B94985 /* ListItemView.swift */; };
 		83FBCB1C2B68104000B94985 /* GalleryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB1B2B68104000B94985 /* GalleryItemView.swift */; };
+		83FBCB212B68110B00B94985 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB202B68110B00B94985 /* GalleryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		83FBCB172B680CEA00B94985 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		83FBCB192B680FA400B94985 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		83FBCB1B2B68104000B94985 /* GalleryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemView.swift; sourceTree = "<group>"; };
+		83FBCB202B68110B00B94985 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,6 @@
 				83FBCB142B68092100B94985 /* Model */,
 				83FBCAE62B68068000B94985 /* LandmarksApp.swift */,
 				83FBCB102B6806C900B94985 /* Views */,
-				83FBCB112B6807AD00B94985 /* DetailView.swift */,
 				83FBCAEA2B68068200B94985 /* Assets.xcassets */,
 				83FBCAEC2B68068200B94985 /* Preview Content */,
 			);
@@ -140,9 +141,11 @@
 		83FBCB102B6806C900B94985 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83FBCB112B6807AD00B94985 /* DetailView.swift */,
 				83FBCB172B680CEA00B94985 /* ListView.swift */,
 				83FBCB192B680FA400B94985 /* ListItemView.swift */,
 				83FBCB1B2B68104000B94985 /* GalleryItemView.swift */,
+				83FBCB202B68110B00B94985 /* GalleryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FBCB212B68110B00B94985 /* GalleryView.swift in Sources */,
 				83FBCB1C2B68104000B94985 /* GalleryItemView.swift in Sources */,
 				83FBCB1A2B680FA400B94985 /* ListItemView.swift in Sources */,
 				83FBCB182B680CEA00B94985 /* ListView.swift in Sources */,
