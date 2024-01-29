@@ -15,6 +15,7 @@
 		83FBCB042B68068300B94985 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB032B68068300B94985 /* LandmarksUITestsLaunchTests.swift */; };
 		83FBCB122B6807AD00B94985 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB112B6807AD00B94985 /* DetailView.swift */; };
 		83FBCB162B68096A00B94985 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB152B68096A00B94985 /* Landmark.swift */; };
+		83FBCB182B680CEA00B94985 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBCB172B680CEA00B94985 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		83FBCB032B68068300B94985 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		83FBCB112B6807AD00B94985 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		83FBCB152B68096A00B94985 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		83FBCB172B680CEA00B94985 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		83FBCB102B6806C900B94985 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83FBCB172B680CEA00B94985 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FBCB182B680CEA00B94985 /* ListView.swift in Sources */,
 				83FBCAE72B68068000B94985 /* LandmarksApp.swift in Sources */,
 				83FBCB122B6807AD00B94985 /* DetailView.swift in Sources */,
 				83FBCB162B68096A00B94985 /* Landmark.swift in Sources */,
